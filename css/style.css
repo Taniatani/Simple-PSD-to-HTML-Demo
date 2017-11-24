@@ -1,0 +1,160 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:linear-gradient(#A6BF7D,#A7BF5F,#A6BF7D)
+}
+.wrapper{
+	width:720px;
+	height:780px;
+	margin:0 auto;
+}
+	
+.header_part{
+	width:720px;
+	height:85px;
+}
+.header_part img {
+	margin:3px 0 10px 20px;
+}
+
+.body_part{
+	width:720px;
+	height:645px;
+	border:2px solid #fff;
+	border-radius: 10px;
+}
+.overlay{
+	margin:0;
+	padding:0;
+	background-color:rgba(0, 0, 0, .5);
+	}
+
+.banner_part{
+	width:720px;
+	height:165px;
+	background:url("../images/banner.jpg") no-repeat 0 0 / 100% 100%;
+	border-radius: 10px 10px 0 0;
+	border-bottom:2px solid #fff;
+	position:relative;
+	
+}
+.banner_part p{
+	padding-left: 50px;
+	padding-top: 30px;
+	color: #fff;
+	font-size: 18px;
+	font-family: verdana;
+	line-height:30px
+}
+.banner_part p span{
+	font-size:22px;
+	text-transform:uppercase;
+}
+.banner_part a{
+	padding-left: 50px;
+	text-decoration:none;
+	color:#000;
+	}
+.banner_part img{
+	position:absolute;
+	right:120px;
+	bottom:0;
+}
+
+
+.nav_part{float:left;
+	width:100%;
+	height:30px;
+	background:#85A157;
+	border-bottom:2px solid #fff;
+	}
+.nav_part ul{}
+
+.nav_part ul li{
+	list-style:none;
+	float:left;
+	margin:5px 0px;
+	display:inline-block;
+	text-align:center;
+	width:118px;
+	}
+.nav_part ul li a{color:#fff;
+	text-decoration:none;
+	padding:5px 0px;
+	}
+	
+.main_contant_part{
+	height:428px;
+	background-color:#E7E8E0;
+	padding:30px 0 20px 0;
+	border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+	}	
+	
+.content{
+	width:700px;
+	height:420px;
+	margin:10px;
+}
+.con_left{
+	width:430px;
+	height:420px;
+	float:left;
+	border-right:2px solid #fff;
+	padding:0px 10px;
+}	
+.con_left h2{
+    font-family: verdana;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 15px;
+	}
+.con_left p{
+	font-family:verdana;
+	font-size:13px;
+	}
+.con_left ul li{
+	list-style:none;
+	float:left;
+	padding:5px 17px 0px 0px;
+	}
+
+
+.con_right{
+    float: right;
+    height: 420px;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 200px;
+}	
+.con_right h3{
+	color: #85a157;
+    font-family: verdana;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 14px;
+    text-align: center;
+	}
+.con_right a{
+    color: #cc7c0d;
+    font-family: verdana;
+    font-size: 14px;
+    line-height: 60px;
+	}	
+.con_right p{
+	font-family: verdana;
+	font-size:11px;
+	}	
+.footer_part{
+	width:720px;
+	height:70px;
+	text-align:center;}
+.footer_part p{
+	padding:11px;
+	font-family:verdana;
+	font-size:10px;
+	}
